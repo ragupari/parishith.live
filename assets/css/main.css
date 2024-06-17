@@ -465,7 +465,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 20%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -480,6 +480,7 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  
 }
 
 .hero p {
